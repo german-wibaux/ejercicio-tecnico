@@ -6,8 +6,6 @@ class Programador extends Empleado {
     public function Programador ($id, $nombre, $apellido, $edad) {
         parent::__construct($id, $nombre, $apellido, $edad);
     }
-
-	
 	
 	public function lenguajeValido($lenguaje) {
 		$lenguajesValidos = array('php','net','python');

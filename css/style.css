@@ -1,0 +1,29 @@
+#sticky-footer {
+    display: flex;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Other Classes for Page Styling */
+  
+  body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+
+  .navbar-nav .nav-link {
+    color: rgba(255,255,255,1) !important;
+  }
+
+  .bg-light {
+    background-color: #343a40!important;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255,255,255,1);
+}
+
+section > h1 {
+    text-align: center;
+    color: #ffffff;
+}
